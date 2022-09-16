@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Master{
+    display: inline-block;;    
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    transition: background-color 1s, height 1s, width 1s; 
+}
+
+.Master:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    text-align: center;   
+}
+
+
+.btn{
+    display: block;
+    margin: 10px auto;
+    padding: auto;
+    height: 50px;
+    width: 200px;
+    background-color: lightblue;
+    transition: background-color 0.5s, height 0.5s, width 0.5s;
+    color: black;
+}
+
+.btn:hover{
+    display: block;
+    padding: auto;
+    height: 60px;
+    width: 220px;
+    background-color: lightgreen;
+    color: crimson;        
+}
+
+.origin{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+.origin:link{
+    color: cyan;    
+}
+
+.origin:visited{
+    color: deeppink;
+}
+
+.box{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    margin: 100px auto;
+    border-radius: 0.5em;
+    transition: all 0.5s;
+}
+
+.box:active{
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.caja{
+    display: block;
+    width: 300px;
+    height: 20px;
+    background-color: azure;
+    margin: 10px auto;
+    border-radius: 0.5em;
+    transition: all 0.5s;
+}
+
+.caja:focus{
+    background: gold;
+    width: 350px;
+    height: 30px;
+    border-radius: 3em;
+}
+
+.ang b:lang(jp){
+    display: block;
+    color: seashell;    
+    text-align: center;
+    margin: 10px auto;     
+}
+
+

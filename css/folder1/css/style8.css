@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box1{
+    margin: 25px auto;
+    width: 200px;
+    height: 500px;
+    
+}
+
+.box1 img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    object-fit: contain; /*mantiene las resoluciones ajustandose al contenido sin rellenar espacios*/    
+}
+
+.box2{
+    margin: 25px auto;
+    width: 200px;
+    height: 500px;
+    
+}
+
+.box2 img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    object-fit: cover;  /*hace que se agrande lo mas posible manteniendo la escala de resolucion*/  
+}
+
+.box3{
+    margin: 25px auto;
+    width: 200px;
+    height: 500px;
+    
+}
+
+.box3 img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    object-fit: none;  /*no se ajusta a ningun lado*/ 
+}
+
+.box4{
+    margin: 25px auto;
+    width: 200px;
+    height: 500px;
+    
+}
+
+.box4 img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    object-fit: scale-down;  /*elije la que mejor se adapte sin perder resolucion*/  
+}
+
+.face{
+    display: flex;
+    margin: 0 auto;   
+    height: 300px;   
+}
+
+.face div{    
+    flex: 1;
+    display: flex;    
+    margin: 4px;
+    border: 1px solid red;    
+}
+
+.face div img{
+    /*recordar que solo funciona si la imagen esta en 100%*/
+    width: 100%;
+    height: 100%;     
+    object-fit: cover;
+    object-position: left; /*se puede usar con medidas "em"*/
+}

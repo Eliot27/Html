@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.responsive{
+    width: 100%;
+    background: #8b0056;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .responsive {
+        background: #ff002b;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .responsive {
+        background: #2f00ff;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .responsive {
+        background: #0062ff;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .responsive {
+        background: #00ff6a;
+    }
+}
+    

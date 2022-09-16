@@ -1,0 +1,86 @@
+/* {    
+    /*Una "clase" global para todo elemento css sin tag *
+    
+}*/
+
+body {
+    background-color: black;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-width: 375px;
+}
+
+h1>mark>b>i {
+    /*Dirigir un tag de tags*/
+    color: #ff0000f1;
+}
+
+h1>mark>b>span {
+    color: #0026ff;
+}
+
+h2 {
+    /*Esto es un Elemento*/
+    color: #e94646d3;
+}
+
+#negrilla {
+    /*Esto es un ID*/
+    color: cornflowerblue;
+}
+
+.titulos {
+    /*Esto es una Clase*/
+    color: #46c8e9d3;
+}
+
+.titulos:hover {
+    /*Esto es un despues de*/
+    color: #ff00b3;
+}
+
+#cursiva {
+    /*Esto es un ID*/
+    color: #5553ff;
+}
+
+[parrafo="Lorem"] {
+    /*Esto es un atributo*/
+    color: #e946c8;
+}
+
+.master {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;    
+    margin: 50px 0 0 0;
+}
+
+.master > section{
+    display: block;
+    width: 300px;
+    margin: 0px 10px;
+    background: linear-gradient(to bottom, #000, #cacacadf);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 100px 10px #b0cfd6;
+}
+
+.master > section > a{
+    color: azure;
+}
+
+@media screen and (max-width: 500px) {
+    .master {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin: 0px 15px 0 0;
+    }
+    .master > section{
+        width: 80%;
+        margin: 10px 0px;
+    }
+}

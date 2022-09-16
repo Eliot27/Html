@@ -1,0 +1,168 @@
+body {
+    background-color: black;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.boxFlex {
+    background-color: #002236f3;
+    margin: 10px;
+    padding: 10px;
+}
+
+.boxes {
+    display: flex;
+    background-color: #003636;
+    margin: 10px;
+    min-width: 100px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.orange {
+    background-color: #ffa500;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.boxAlignSelf{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.boxesAling {
+    background-color: #02aaaa;
+    margin: 10px;
+    min-width: 100px;
+    height: 15vh;
+    width: 100px;
+    text-align: center;    
+}
+
+.cross{
+    background-color: #02aaaa;
+    margin: 10px;
+    min-width: 100px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-self: flex-end;
+}
+
+.boxFlexgrow{
+    display: flex;
+    height: 20hv;
+    flex-wrap: wrap;
+}
+
+.boxesFlexgrow {
+    background-color: #5e02aa;
+    margin: 5px;
+    min-width: 120px;
+    text-align: center;
+    height: 100px;          
+}
+
+.init{
+    background-color: #a71a1aa1;
+    flex-grow: 3;
+}
+
+.final{
+    background-color: #1a2fa7a1;
+    flex-grow: 1;
+}
+
+.boxFlexbasics{
+    display: flex;
+    height: 20hv;
+    flex-wrap: wrap;
+}
+
+.boxesFlexbasics {
+    background-color: #5e02aa;
+    margin: 5px;
+    min-width: 120px;
+    text-align: center;
+    height: 100px;
+    flex-grow: 1;          
+}
+
+.initx{
+    background-color: #8da71aa1;
+    flex-basis: 300px;    
+}
+
+.finalx{
+    background-color: #1aa732a1;    
+}
+
+
+.boxFlexShrink{
+    display: flex;
+    height: 20hv;
+      
+}
+
+.boxesFlexshrink {
+    background-color: #ff9100;
+    margin: 5px;
+    min-width: 120px;
+    text-align: center;
+    height: 100px;
+    flex-grow: 1;
+    width: 300px;          
+}
+
+.inits{
+    background-color: #ff06d5a1;
+    flex-basis: 300px;
+    flex-shrink: 0.5;      
+}
+
+.finals{
+    background-color: #00ffbfa1;    
+}
+
+.boxFlexs{
+    display: flex;
+    height: 20hv;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;      
+}
+
+.boxesFlexs {
+    background-color: #00c3ff;
+    margin: 5px;
+    min-width: 120px;
+    text-align: center;
+    height: 100px;    
+    width: 300px;
+    flex: 1;          
+}
+
+.initb{
+    background-color: #062bffa1;
+    flex: 1 0 350px;
+    order: 4;         
+}
+
+.finalb{
+    background-color: #4400ffa1;    
+}

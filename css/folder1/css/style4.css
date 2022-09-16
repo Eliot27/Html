@@ -1,0 +1,170 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 30px;   
+}
+
+.cajaMain {
+    display: block;
+    background: brown;
+}
+
+.caja1 {
+    width: 200px;
+    height: 200px;
+    background-color: #3900f6;
+    /*outline: 10px solid #c8c756;*/
+}
+
+.caja2 {
+    width: 200px;
+    height: 200px;
+    background-color: #00ddb8;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 10;
+}
+
+.caja3 {
+    width: 200px;
+    height: 200px;
+    background-color: #15f600;
+    position: relative;
+    z-index: 0;
+}
+
+.caja4 {
+    width: 200px;
+    height: 200px;
+    background-color: #b012d8;
+}
+
+.contenedor{
+    width: 500px;
+    height: 500px;
+    background-color: #07dddd;
+    margin: 40px;
+    position: relative;
+    z-index: undifined; /*Para que el contenedor hijo esté detras del contenedor padre z-index debe ser undefined*/
+    
+}
+
+.contenedorDiv{
+    width: 200px;
+    height: 200px;
+    background-color: #a8c1eb;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+}
+
+.MasterAbs{
+    position: relative;   
+}
+
+.Master{
+    position: absolute;
+    display: block; 
+    margin: 20px 50%;    
+    border: 2px solid #c85f56;
+    background-color: azure;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.slave1{
+    width: 100px;
+    height: 100px;
+    background-color: #004af6;
+    position: absolute;
+    top: 0px;
+    
+}
+
+.slave2{
+    width: 100px;
+    height: 100px;
+    background-color: #08f600;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    
+}
+
+.slave3{
+    width: 100px;
+    height: 100px;
+    background-color: #9400f6;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.slave4{
+    width: 100px;
+    height: 100px;
+    background-color: #f6a000;
+    position: absolute;
+    bottom: 0;
+}
+
+.slave5{
+    width: 100px;
+    height: 100px;
+    background-color: #f60000;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;      
+}
+
+.effect{
+    width: 100%;    
+    background-color: #f60000;
+    position: fixed;
+    top: 50px;
+    opacity: 0.5;   
+}
+
+.effectText1{
+    color : azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.effectText2{
+    color : #2e6262;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;    
+}
+
+.colbonFix{
+    position: fixed;
+    top: 30%;
+    opacity: 0.2;    
+    margin-left: 80%;
+    margin-top: 400px;
+    z-index: 200; 
+
+}
+.colbon{
+    width: 150px;
+    height: 150px;
+    background-color: #1df600;
+    position: sticky;   
+    top: 100px;      
+}
+
+.colbonDiv{
+    color: #b012d8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;    
+}
+
+
+

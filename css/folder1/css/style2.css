@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.form{
+    background-color: cornflowerblue;
+    
+}
+.form-input{    
+    color: tomato;
+}
+
+.form-input--active{    
+    color: #02ff24;
+}
+
+.contact{
+    background-color: #029aff6b;
+    /*si defino el font size, 
+    por herencia 1em va a equivaler
+    lo que esta en el valor de font-size,
+    asi mismo con cualquier propiedad se pueda medir
+    como px, em, rem, etc*/
+    font-size: 16px;
+    width: 50vw; /*vw significa viewport width*/
+    /*height: 50vh; /*vh significa viewport height*/
+
+}
+
+.contactText{
+    font-size: 2em; /*1em son 16px*/
+    font-family: 'Estonia', sans-serif;
+    line-height: 2em;
+    font-weight: bold; 
+    color: azure;
+}

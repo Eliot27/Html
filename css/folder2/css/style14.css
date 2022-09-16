@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.master {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.mHeader, .mArticle, .mAside, .mFooter{
+    padding: 20px;
+}
+
+.mHeader {
+    background-color: #003366;
+    color: azure;
+    flex-basis: 60px;
+}
+
+.mArticle {
+    background-color: #404ad6;
+    color: azure;
+    flex-basis: 300px;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+
+.mAside {
+    background-color: #36217c;
+    color: azure;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.mFooter {
+    background-color: #660066;
+    color: azure;
+    flex-grow: 1;
+}
+
+@media screen and (min-width: 700px) {
+    .master {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .mHeader{
+        flex-basis: 100%;
+        flex-grow: 0;
+    }
+
+    .mFooter{
+        flex-basis: 100%;       
+    }
+}

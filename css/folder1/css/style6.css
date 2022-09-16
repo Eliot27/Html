@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.texto{
+    padding: 20px;
+
+}
+
+/*Esto solo se puede aplicar a elementos block o inline-block*/
+.texto::first-line{ 
+    color: aqua;
+    font-size: 2em;
+}
+
+.texto::first-letter{
+    color: pink;
+    font-size: 5em;
+}
+
+form{   
+    margin: 20px auto;
+    width: 500px;
+    padding: 100px;
+    border: 1px solid black;
+    border-radius: 10px;    
+    background-color: white;
+    align-items: center;
+}
+
+input{    
+    /*preguntar al don*/    
+    width: 100%;    
+    padding: 10px 0px 10px 0px; /*top right bottom left*/
+    border: 1px solid #ff00f2;
+    border-radius: 5px;    
+}
+
+input::placeholder{
+    color: #ff00f2;
+}
+
+input::selection{
+    background-color: #fffb00;
+    color: #d31919;
+}
+
+input:focus{
+    border: 1px solid red;
+    background-color: azure;
+    color: crimson;    
+}
+
+.container{
+    margin: 100px auto;
+    display: block;
+    background-color: aliceblue;
+    padding: 100px;
+    width: 50%;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+b{
+    color: black;
+    padding: 10px;
+    width: 100%;
+}
+
+/*Esto solo se puede aplicar a elementos block o inline-block*/
+/*Pero es necesario que sea un content por lo que necesita un padre como un h1, p, b*/
+
+b::before{
+    color: lime;
+    background-color: #0852a7;
+    content: "Mira la brujeria xd ";
+}
+
+b::after{
+    color: #aa8c8c;
+    background-color: #ff006a;
+    content: "la clave es 12352351";
+}
+

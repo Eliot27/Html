@@ -1,0 +1,170 @@
+<!--Define que es un html, aunque ya no se usa sigue siendo una etiqueta LEGACY-->
+<!DOCTYPE html>
+
+<!--Html es el elemento root de la pagina web-->
+<!--Siempre debe incluir el atributo lang dentro de la etiqueta <html> 
+    para declarar el idioma de la página web. 
+    Esto está destinado a ayudar a los motores de búsqueda y navegadores-->
+<html lang="es">
+
+<!--Head contiene el meta-informacion de la pagina web -->
+
+<head>
+    <!--Meta contiene la inforacion de la pagina web en cuanto a compatibilidad-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title es el elemento de titulo para la pagina web que se muestra en el titulo-->
+    <title>Pagina HTML</title>
+</head>
+
+<!--Body es el elemento que contiene todos los contenidos visibles de la pagina-->
+
+<body>
+    <p style="font-size: 30px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+        <b>Hola Soy Eliot y esta es mi ruta de aprendizaje Html, Css y JavaScript </b>
+        <i>Soy nuevo en esto y estoy haciendo todo lo posible para entender mejor como crear cosas en la web</i>
+    </p>
+    <p style="font-size: 30px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+        <i>Todas las rutas las trabajo con la etiqueta 'a' sé que no es lo mejor pero ahi vamos</i>
+        <h1><b><i><mark>Espero disfrutes mis locuras tanto como yo!</mark></i></b></h1>
+    </p>
+    <a title="Paginas HTML!" href="./Html/index.html" style="color: blue; font-size:16px;">Este es un link a Curso Html</a>
+    <br><br>
+    <a title="Estilos!" href="./css/styles.html" style="color: blue; font-size:16px;">Este es un link a Curso de CSS</a>
+    <br><br>
+    <a title="Programacion JavaScript!" href="./JavaScript/JavaScript.html" style="color: #000000; font-size:16px;"><mark>Este es el link a Curso JavaScript</mark></a>
+    <!--h1,h2,h3,h4,h5,h6 son elementos que definen un encabezado
+     y su tamaño disminuye a medida que aumenta el numero-->
+    <h1>Lorem Ipsum</h1>
+    <h2>Lorem Ipsum</h2>
+    <h3>Lorem Ipsum</h3>
+    <h4>Lorem Ipsum</h4>
+    <h5>Lorem Ipsum</h5>
+    <h6>Lorem Ipsum</h6>
+    <!--las etiquetas de encabezados h1 pueden tambien tener tamaños o estilos-->
+    <h1 style="font-size:30px;">Encabezado 1</h1>
+    <!--p es el elemento que define un parrafo-->
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit imperdiet,
+        sociis vivamus facilisis nostra eros metus neque,
+        nulla odio sagittis arcu quam habitasse primis.
+        Viverra leo nisi eleifend per est vitae,
+        iaculis potenti facilisis tellus lectus augue montes,
+        arcu feugiat dui nostra ridiculus.
+        Aliquet habitant ultrices ornare habitasse aliquam ligula cubilia tempor ut,
+        tristique accumsan urna himenaeos egestas blandit convallis tellus,
+        volutpat rhoncus maecenas non justo fames auctor turpis.</p>
+    <p>Bibendum quam eu cum libero etiam egestas turpis curae magnis,
+        pellentesque suspendisse ut per integer a pulvinar
+        leo massa, sem gravida conubia tempor eget justo dui diam.
+        Justo et posuere elementum donec iaculis varius
+        himenaeos pharetra morbi, mus nec curae vehicula porta praesent aptent massa.
+        Vulputate potenti ut nullam
+        fermentum sociosqu non turpis inceptos felis,
+        litora euismod hac dignissim torquent porttitor pharetra fames,
+        sollicitudin metus tempor venenatis taciti mollis class habitasse.</p>
+
+
+    <!--a es el elemento que define los link o hyper vinculos-->
+    <a href="https://www.w3schools.com">Este es un link a https://www.w3schools.com</a>
+
+    <!--Los elementos HTML sin contenido se denominan elementos vacíos-->
+    <!--La etiqueta <br> define un salto de línea y es un elemento vacío sin una etiqueta de cierre-->
+    <p>Este es una br <br> y esta haciendo un salto de linea</p>
+
+    <!--El estándar HTML no requiere etiquetas en minúsculas,
+        pero W3C recomienda minúsculas en HTML
+        y exige minúsculas para tipos de documentos más estrictos como XHTML.-->
+
+    <!--La etiqueta <a> define un hipervínculo.
+        El atributo href especifica la URL de la página a la que va el enlace-->
+    <a href="https://www.w3schools.com">Visit W3Schools</a>
+    <br><br>
+
+
+    <!--La etiqueta <img> se usa para incrustar una imagen en una página HTML. 
+        El atributo src especifica la ruta a la imagen que se mostrará-->
+    <img src="img.jpg">
+    <br><br>
+
+    <!--Hay dos formas de especificar la URL en el atributo src-->
+
+    <!--1. URL absoluta: enlaces a una imagen externa alojada en otro sitio web. 
+        Ejemplo: src = "https://www.w3schools.com/images/img_girl.jpg".-->
+
+    <img src="https://c.tenor.com/Nunh9tiIkJAAAAAC/darling-in-the-franxx-anime.gif" alt="Darling In The Franxx Anime GIF - Darling In The Franxx Anime Zero Two GIFs" style="width: 300;">
+    <p>aqui deberia estar el gif pero no recoge la pag web</p>
+    <a href="https://tenor.com/bkDiU.gif">Darling gif</a>
+    <br><br>
+
+    <!--Notas: Las imágenes externas pueden estar protegidas por derechos de autor.
+        Si no obtiene permiso para usarlo,
+        puede estar violando las leyes de derechos de autor.
+        Además, no puede controlar las imágenes externas;
+        se puede quitar o cambiar de repente.-->
+
+    <!--2. URL relativa: enlaces a una imagen alojada en el sitio web.
+        Aquí, la URL no incluye el nombre de dominio. 
+        Si la URL comienza sin una barra, será relativa a la página actual.
+        Ejemplo: src = "img_girl.jpg". 
+        Si la URL comienza con una barra, será relativa al dominio. 
+        Ejemplo: src = "/ images / img_girl.jpg".-->
+
+    <!--img define el elemento de imagen
+    este contiene un source src que es la ruta de donde esta la imagen
+    alt que es un link alternativo
+    un ancho "width" que se establece en pixeles
+    un alto "height que se establece en pixeles"-->
+    <img src="/Assets/darling.png" width="220" height="150">
+    <br><br>
+
+    <img src="img_girl.jpg" alt="Darling con chaqueta">
+    <br><br>
+
+    <!--El atributo de estilo se usa para agregar estilos a un elemento,
+        como color, fuente, tamaño y más.-->
+    <p style="color:red;">Este parrafo es rojo!</p>
+    <!--El atributo de título define información adicional sobre un elemento. 
+        El valor del atributo de título se mostrará como información sobre herramientas 
+        cuando pase el mouse sobre el elemento-->
+    <p style="color: blue;" title="Soy un parrafo!">Este parrafo es especial.</p>
+    <p title="Sebas tiene una 'Arma!' ">Sebas tiene algo oculto</p>
+    <br><br>
+    <h1>Parrafos</h1>
+    <h1>Este es un encabezado 1</h1>
+    <p>Esto puede ser un texto para el hr
+        <br> los hr son reglas como puede ver
+    </p>
+    <hr>
+    <h2>Este es otro h2 comun</h2>
+    <p>Y este es otro parrafo para el hr</p>
+    <hr>
+    <p>simples reglas que hacen lineas
+        <br>pero como puede ver
+        <br>estoy usando un br
+        <br>para romper el parrafo
+        <br><br>
+        <br> para crear espacio y deformar!
+    </p>
+    <hr>
+
+    <!--El elemento HTML <pre> define texto preformateado. 
+        El texto dentro de un elemento <pre> se muestra en una fuente de ancho fijo (generalmente Courier)
+         y conserva tanto los espacios como los saltos de línea-->
+
+    <pre>
+            Que pasa con darling
+          
+            porque no encuentro a darling
+          
+            darling darling darling
+          
+            Te encontraré darling!
+    </pre>
+
+    <hr>
+
+
+</body>
+
+</html>

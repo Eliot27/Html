@@ -1,0 +1,62 @@
+.mangoz-pro {
+  height: 480px;
+  width: 480px;
+  border: 1px solid red;
+  margin: 0px auto;
+  margin-top: 100px;
+  margin-bottom:  100px;
+  background: url(../../../Assets/Mangoz-anime-v2.png) no-repeat;  
+  animation: man-pro 5s steps(50) infinite;  
+}
+
+@keyframes man-pro {
+  0% {
+    background-position: 0px;
+  }
+
+  100% {
+    background-position: -24000px;
+  }
+}
+
+
+.mango {
+  height: 480px;
+  width: 480px;
+  border: 1px solid red;
+  margin: 0px auto;
+  margin-top: 300px;
+  background: url(../../../Assets/Mangoz-anime.png) no-repeat;
+  animation: mangox 1s steps(7) infinite;
+}
+
+@keyframes mangox {
+  0% {
+    background-position: 0px;
+  }
+
+  100% {
+    background-position: -3360px;
+  }
+}
+
+.spartan {        
+    height: 70px;
+    width: 45px;
+    border: 1px solid red;
+    margin: 0px auto;
+    margin-top: 300px;
+    background: url(../../../Assets/spartan.png) no-repeat;
+    animation: anime 1s steps(10) infinite;
+    transform: scale(5);
+  }
+
+  @keyframes anime {
+    0% {
+      background-position: 0px;
+    }
+
+    100% {
+      background-position: -500px;
+    }
+  }

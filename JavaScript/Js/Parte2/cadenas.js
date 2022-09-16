@@ -1,0 +1,13 @@
+let cadena = 'Hola Mundo';
+console.log(typeof cadena);
+document.write(cadena, " y su typeof es " + typeof cadena  +  "<br/>" +  "y su longitud es " + cadena.length + "<br/><br/>");
+console.log(cadena.length);
+document.write("Los strings son inmutables, no pueden ser modificados una vez creados" + "<br/>");
+document.write("Los strings tienen un indice que empieza en 0 como la cadena de Hola mundo" + "<br/>");
+document.write("donde la H es el indice 0 = "+ cadena[0] + " y el indice 3 es la a = "+ cadena[3] + "<br/>");
+cadena[4] = "--";
+document.write("No puedo hacer esto cadena[3] = 'b' porque es inmutable" + "<br/>" + "me trae el mismo mensaje que escribi al principio "+ cadena+ "<br/>");
+document.write("si escribo cadena[20] me trae undefined porque no existe el indice 20 = " + cadena[20] + "<br/>");
+document.write("Si quiero consultar la ultima cadena es el largo de la cadena - 1 = " + cadena[cadena.length - 1] + "<br/>");
+document.write("o tambien la cadena - 1 o -2 etc = " + cadena[cadena.length - 2] + "<br/>");
+document.write("<br/><br/>");
