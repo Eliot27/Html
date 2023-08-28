@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style id="text/css">
+      .UnoBoxs {
+        display: flex;
+        flex-direction: column;
+        background-color: brown;
+        font-size: 48px;
+        font-weight: 800;
+        color: white;
+        justify-content: flex-start;
+        padding-left: 200px;
+        transition: all 1s;
+      }
+      .UnoTextos {
+        height: 0px;
+        opacity: 0;
+        background-color: blueviolet;
+        transition: all 1s;
+      }
+    </style>
+    <main id="BoxContainer">
+      <div id="UnoBox" class="UnoBoxs" onclick="{changeState()}">
+        1- El cambio
+        <div id="UnoTexto" class="UnoTextos">
+          <p>
+            Desde los albores de la humanidad hasta el preludio de la revolución
+            de la Inteligencia Artificial, cuando las máquinas piensen y razonen
+            por su cuenta, jamás hemos dejado de buscarle, en este viaje que es
+            la vida misma, nuevos sentidos a nuestra existencia.
+          </p>
+          <p>
+            Desde los análisis sobre la naturaleza y la ética del mundo antiguo,
+            pasando por la subordinación a la fe en la edad media, continuando
+            con el humanismo del renacimiento, hasta el imperio de los temas
+            sociales del mundo contemporáneo, todo ha sido un cambio constante.
+          </p>
+        </div>
+      </div>
+      <script>
+        var UnoBox = document.getElementById("UnoBox");
+        var Unotexto = document.getElementById("UnoTexto");
+        Unobox.addEventListener("click", changeState);
+        function changeState() {
+          if (UnoTexto.style.height == "0px") {
+            UnoTexto.style.opacity = "1";
+            UnoTexto.style.height = "700px";
+          } else {            
+            UnoTexto.style.opacity = "0";
+            UnoTexto.style.height = "0";
+          }
+        }
+      </script>
+    </main>
+  </body>
+</html>
